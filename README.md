@@ -15,7 +15,7 @@ Drivers designed for [CircuitPython](https://circuitpython.org/) devices to supp
 4. **Install host software:** On Linux, `pip install tncattach`. Then bring up `tnc0` on each host with:
 
    ```bash
-   sudo tncattach /dev/ttyACM1 --mtu 156 --noup --noipv6 115200 &
+   sudo tncattach /dev/ttyACM1 115200 --mtu 156 --noipv6 &
    sudo ip addr add 10.10.10.1/30 dev tnc0   # on host A
    sudo ip addr add 10.10.10.2/30 dev tnc0   # on host B
    sudo ip link set tnc0 up
@@ -170,7 +170,7 @@ This pacing ensures that TCP ACKs are preferentially transmitted even when the d
 3. Bring up the TNC interface:
 
    ```bash
-   sudo tncattach /dev/ttyACM1 --mtu 156 --noup --noipv6 115200 &
+   sudo tncattach /dev/ttyACM1 115200 --mtu 156 --noipv6 &
    ```
 
    * Replace `/dev/ttyACM1` with the correct data port.
