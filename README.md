@@ -4,7 +4,7 @@ Drivers designed for [CircuitPython](https://circuitpython.org/) devices to supp
 
 ## Quick Start (5 Steps)
 
-1. **Prepare hardware:** Two Raspberry Pi Pico W boards (running CircuitPython 9.2.8) and four RYLR998 modules (two per Pico). Power each Pico via USB.
+1. **Prepare hardware:** Two Raspberry Pi Pico 2W boards (running CircuitPython 9.2.8) and four RYLR998 modules (two per Pico). Power each Pico via USB.
 2. **Copy files:**
 
    * On Device A: copy `code_A.py` → `code.py`.
@@ -26,7 +26,7 @@ Drivers designed for [CircuitPython](https://circuitpython.org/) devices to supp
 
 ## Prerequisites
 
-At a minimum, 4 RYLR998 modules (2 receiver and transmitter pairs), 2 devices running CircuitPython with UART communication, and a source of 3.3V DC power. This setup was tested using 2x Raspberry Pi Pico W modules running CircuitPython 9.2.8 attached to hosts running Ubuntu 24.04.3 LTS on a x86\_64 architecture.
+At a minimum, 4 RYLR998 modules (2 receiver and transmitter pairs), 2 devices running CircuitPython with UART communication, and a source of 3.3V DC power. This setup was tested using 2x Raspberry Pi Pico 2W modules running CircuitPython 9.2.8 attached to hosts running Ubuntu 24.04.3 LTS on a x86\_64 architecture.
 
 ## High-Level Overview
 
